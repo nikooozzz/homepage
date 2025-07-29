@@ -44,3 +44,13 @@
 	opacity: 1;
 	font-style: italic;
 }
+
+.shortcuts {
+	display: inline-flex;
+	align-items: center;
+}
+
+.shortcuts>a>img {
+	height: 0.5rem;
+	max-width: 0.75rem;
+}
