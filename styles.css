@@ -25,7 +25,7 @@
 	flex-direction: column;
 }
 
-#main-input {
+.main-input {
 	width: 100%;
 	padding: 0.75rem 1rem;
 	font-size: 1rem;
@@ -36,11 +36,11 @@
 	background: white;
 }
 
-#main-input:focus {
+.main-input:focus {
 	border-color: #4f46e5;
 }
 
-#main-input::placeholder {
+.main-input::placeholder {
 	color: #999;
 	opacity: 1;
 	font-style: italic;
