@@ -47,8 +47,10 @@
 }
 
 .shortcuts {
+	margin-top: 0.75rem;
 	display: flex;
 	align-items: center;
+	gap: 1rem;
 }
 
 .shortcuts>a>img {
