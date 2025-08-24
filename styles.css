@@ -1,25 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
+@import "tailwindcss";
+
 * {
-	color: red;
 	box-sizing: border-box;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Crimson Text', Times, serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
-.outer {
-	display: flex;
+body {
+	overflow: hidden;
+}
+
+.background {
+	position: fixed;
+	inset: 0;
+	background: url('assets/background.png') center/cover no-repeat;
+}
+
+.overlay {
+	background: #24273a70;
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	display: grid;
 	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	padding: 1rem;
-	background: #f0f0f0;
+	align-content: center;
+	height: 100vh;
 }
 
 .inner {
 	width: 100%;
 	max-width: 600px;
-	background: white;
-	padding: 1.5rem;
+	background: #494d64;
+	padding: 2.5rem 3rem;
 	border-radius: 0.5rem;
-	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+	box-shadow: 0 4px 12px #363a4f;
 	
 	display: flex;
 	justify-content: center;
@@ -30,6 +45,7 @@
 	font-size: 2rem;
 	font-weight: bold;
 	text-align: center;
+	color: #cad3f5;
 }
 
 .main-input {
